@@ -3,6 +3,7 @@ import './App.css'
 import ControlFeild from './Components/ControlFeild/ControlFeild'
 import FormAction from './Components/formAction/FormAction'
 import SipmleForm from './Components/SimleForm/SipmleForm'
+import Uncontroll from './Components/unControll/Uncontroll'
 
 function App() {
  
@@ -14,7 +15,8 @@ function App() {
 
       </SipmleForm> */}
       {/* <FormAction></FormAction> */}
-      <ControlFeild></ControlFeild>
+      {/* <ControlFeild></ControlFeild> */}
+      <Uncontroll></Uncontroll>
     </>
   )
 }
