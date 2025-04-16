@@ -3,6 +3,7 @@ import './App.css'
 import ControlFeild from './Components/ControlFeild/ControlFeild'
 import FormAction from './Components/formAction/FormAction'
 import HocForm from './Components/HocForm/HocForm'
+import Productmenegment from './Components/productMenegment/Productmenegment'
 import SipmleForm from './Components/SimleForm/SipmleForm'
 import Uncontroll from './Components/unControll/Uncontroll'
 
@@ -18,7 +19,9 @@ function App() {
       {/* <FormAction></FormAction> */}
       {/* <ControlFeild></ControlFeild> */}
       {/* <Uncontroll></Uncontroll> */}
-      <HocForm></HocForm>
+      {/* <HocForm>     </HocForm> */}
+
+      <Productmenegment></Productmenegment>
     </>
   )
 }
